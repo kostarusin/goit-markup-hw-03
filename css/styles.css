@@ -40,7 +40,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 img {
@@ -246,7 +246,16 @@ img {
   gap: 24px;
 }
 
+.our-team-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .our-team-element {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
   width: calc((100%-72px) / 4);
 }
 
@@ -256,7 +265,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--paragraph-header-color);
-  margin-top: 32px;
+
   margin-bottom: 8px;
 }
 
@@ -264,7 +273,6 @@ img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /*-----------Work Proposal Filter-------------*/
