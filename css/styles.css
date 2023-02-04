@@ -40,7 +40,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 img {
@@ -327,17 +327,15 @@ img {
   padding-bottom: 32px;
   padding-left: 16px;
   width: 360px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .work-prop-element {
-  width: 360px;
   height: 420px;
-  left: 156px;
-  top: 288px;
   background: #ffffff;
-  border: 1px solid #e7e9fc;
-  margin-right: 24;
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .work-prop-list-titel {
