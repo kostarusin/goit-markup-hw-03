@@ -227,7 +227,7 @@ body {
 }
 
 .Work-description-element {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /*-----------------Our team------------------------*/
