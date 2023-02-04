@@ -198,7 +198,7 @@ img {
 
 .features-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
 }
@@ -269,13 +269,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--paragraph-header-color);
-
   margin-bottom: 8px;
 }
 
 .our-team-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -326,9 +325,18 @@ img {
 .work-prop-card {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  width: 360px;
 }
 
 .work-prop-element {
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+  margin-right: 24;
   width: calc((100%-48px) / 3);
 }
 
