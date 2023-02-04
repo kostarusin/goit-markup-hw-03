@@ -36,7 +36,7 @@ body {
 
 .conteiner {
   width: 100%;
-  max-width: 1128px;
+  max-width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
@@ -279,8 +279,15 @@ img {
 /*-----------Work Proposal Filter-------------*/
 
 .work-prop-item {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.work-prop-btn-block {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .work-prop-btn {
@@ -291,9 +298,12 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  height: 48px;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .work-prop-btn:is(:hover, :focus) {
@@ -302,6 +312,18 @@ img {
 }
 
 /*------------------Work Proposal List-----------*/
+
+.work-prop-list-block {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.work-prop-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .work-prop-list-titel {
   font-weight: 500;
