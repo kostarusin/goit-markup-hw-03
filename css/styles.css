@@ -235,6 +235,7 @@ body {
 .our-team-item {
   background-color: var(--our-team-background-color);
   text-align: center;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
